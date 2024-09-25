@@ -10,6 +10,28 @@
 
 **`AFTabBar`** is a fully customizable SwiftUI tab bar component, designed to work like [`TabView`](https://developer.apple.com/documentation/swiftui/tabview).
 
+## Installation
+
+#### Swift Package Manager
+
+Add the following line to the dependencies in `Package.swift`, to use the `AFTabBar` in a SPM project:
+
+```swift
+.package(url: "https://github.com/gurelyusuf/AF-TabBar", from: "0.0.1"),
+```
+
+Add `import AFTabBar` into your source code to use `TabBar`.
+
+#### Xcode
+
+Go to `File > Add Package Dependencies...` and paste the repo's URL:
+
+```
+https://github.com/gurelyusuf/AF-TabBar.git
+```
+
+#
+
 ## Usage
 
 Like `TabView`, the `TabBar` takes a Binding value that conforms to `Hashable`.
